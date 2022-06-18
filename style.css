@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+.flex-container {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 80px;
+  font-size: 15px;
+
+}
+.top-content {
+     background-color: hsl(31, 77%, 52%);
+     padding: 16px;
+}
+.second-content {
+  background-color: hsl(184, 100%, 22%);
+  padding: 16px;
+}
+.third-content {
+  background-color: hsl(179, 100%, 13%);
+  padding: 16px;
+}
+button{
+  border-radius: 12px;
+}
